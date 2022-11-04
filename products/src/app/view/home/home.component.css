@@ -1,0 +1,7 @@
+div{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    /* background-image: url("food.gif"); */
+    /* background-repeat: no-repeat; */
+}

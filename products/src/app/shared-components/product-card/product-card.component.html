@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+    <img [src]="productItem.MainImageUrl" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h3 class="card-title">{{productItem.Name}}</h3>
+        <a routerLink="/products/inner/{{productItem.Id}}" class="btn btn-dark">full info</a>
+    </div>
+   
+  </div>
